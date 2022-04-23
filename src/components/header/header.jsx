@@ -4,7 +4,7 @@ export default function Headers() {
   return (
     <div className='_header'>
 
-<img src="http://imsec.ac.in/assets/images/logo/logo.png" alt="" />
+<img src="https://res.cloudinary.com/personal-cloud-rohaanmd/image/upload/v1650731198/logo_d2gaks.jpg" alt="" />
 
 <div className='_header_contact'>
 <p>
