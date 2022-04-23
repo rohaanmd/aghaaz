@@ -1,3 +1,5 @@
+@import "../../style.scss";
+
 ._sponsors{
 
     h2{
@@ -7,7 +9,7 @@
         margin: 5vw auto;
         // font-size: 6vw;
         text-transform: uppercase;
-        color: #e0e0e0;
+        color: $base-font-color;
         text-align: center;
         width: 100%;
     }
@@ -28,5 +30,5 @@
 
 
 .signature{
-    color: #e0e0e0;
+    color: $base-font-color;
 }
