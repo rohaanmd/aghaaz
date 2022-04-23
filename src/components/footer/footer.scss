@@ -1,0 +1,32 @@
+._sponsors{
+
+    h2{
+        font-size: 3em;
+        position: relative;
+        display: inline-block;
+        margin: 5vw auto;
+        // font-size: 6vw;
+        text-transform: uppercase;
+        color: #e0e0e0;
+        text-align: center;
+        width: 100%;
+    }
+    &_body{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        img{
+            width: 200px;
+            height: 160px;
+            margin: 10px;
+        }
+
+    }
+
+}
+
+
+.signature{
+    color: #e0e0e0;
+}
