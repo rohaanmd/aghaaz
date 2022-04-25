@@ -12,10 +12,10 @@ export default function LandingPage() {
 				<br />
 				<h2 className="page-sub-title">2022</h2>
 				<br />
-				<span style={{ position: "relative" }}>
+				<div className="position-relative d-flex justify-center">
 					<h2 className="page-title">A Management Fest</h2>
 					<div className="span-title"> By Department of MBA</div>
-				</span>
+				</div>
 			</header>
 			<main>
 				<section className="flex-grid event-listing">

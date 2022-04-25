@@ -233,6 +233,7 @@ body {
 		color: black(80);
 		background: #e2e2e2;
 		z-index: 0;
+		min-height:100px;
 
 		@include min-width($bp-col-single) {
 			padding: 1.5rem;
@@ -447,6 +448,6 @@ body {
 	position: absolute;
 	color: $color-brand-secondary;
 	font-weight: 700;
-	top: 87%;
+	top: 32%;
 	white-space: nowrap;
 }
