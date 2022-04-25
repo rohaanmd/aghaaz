@@ -179,12 +179,15 @@ export const data = [{
   rLink: "/",
   contact:{
     s_coord:[{
-        name:"Sunanda Chauhan",
-        number:7906977045
+        name:"Ayushi Singh",
+        number:7355546844
     },{
-      name:"Pallavi Malhotra",
-      number:8527692404
-  }],
+      name:"Mayank Gautam",
+      number:8953764607
+  },{
+    name:"Yogender Singh",
+    number:9149025499
+}],
     t_coord:["Dr. Abhijit Das"]
 },
   
