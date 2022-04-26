@@ -24,6 +24,7 @@ export default function CardCustom({ d }) {
 						<a
 							className="text-s link-default event-card__link"
 							target="_blank"
+							rel="noreferrer"
 							href={d.rLink}
 						>
 							Regester now
