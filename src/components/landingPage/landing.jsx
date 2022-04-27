@@ -6,8 +6,8 @@ export default function LandingPage() {
 	return (
 		<>
 			<header className="page-header">
-				<h1 className="site-title" data-title="Aghaaz">
-					Aghaaz
+				<h1 className="site-title" data-title="Aaghaaz">
+					Aaghaaz
 				</h1>
 				<br />
 				<h2 className="page-sub-title">2022</h2>
