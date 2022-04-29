@@ -1,7 +1,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (min-width : 320px)
-and (max-width : 480px) {
+
+and (max-width : 748px) {
 /* Styles */
 
 ._header {
@@ -28,6 +28,9 @@ and (max-width : 480px) {
 }
 
 .page-header{
+    .sub-header{
+        flex-direction: column;
+    }
     .span-title {
         font-size: 19px;
         position: static;
@@ -73,14 +76,26 @@ and (min-width : 321px) {
 @media only screen
 and (max-width : 320px) {
 /* Styles */
+._header {
+    
+    margin: 0em;
+    padding: 1em;
+  }
 }
  
 /* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px) {
+
 /* Styles */
+
+._header {
+    
+    padding: 1em;
+  }
 }
+
  
 /* iPads (landscape) ----------- */
 @media only screen
@@ -96,6 +111,16 @@ and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : portrait) {
 /* Styles */
+
+._header {
+    
+    margin: 1em;
+  }
+    .event-card {
+        background: #fafafa;
+        max-width: 481px;
+    }      
+
 }
  
 /* Desktops and laptops ----------- */

@@ -1,7 +1,7 @@
 export const data = [
 	{
 		eventName: "ANVESHAN- The Corporate Quiz",
-		venue: " Venue Yet to be decided",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "/assets/quiz.jpg",
@@ -28,7 +28,7 @@ export const data = [
 	},
 	{
 		eventName: "100 Ka Dam",
-		venue: " Venue Yet to be decided",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "/assets/invest.gif",
@@ -51,7 +51,7 @@ export const data = [
 	},
 	{
 		eventName: "Corporate Walk",
-		venue: " Venue Yet to be decided",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "/assets/walk.svg",
@@ -74,7 +74,7 @@ export const data = [
 	},
 	{
 		eventName: "Ad Zap-  The Ad Mad Show",
-		venue: " Venue Yet to be decided",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "assets/ad.jpg",
@@ -101,7 +101,7 @@ export const data = [
 	},
 	{
 		eventName: "Jugaad Management",
-		venue: " Venue Yet to be decided",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "/assets/garbage-recycle.svg",
@@ -123,8 +123,8 @@ export const data = [
 		},
 	},
 	{
-		eventName: "SAMVAAD - The Business Debate",
-		venue: " Venue Yet to be decided",
+		eventName: "Turn Coat - The Business Debate",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "/assets/debate.jpg",
@@ -147,7 +147,7 @@ export const data = [
 	},
 	{
 		eventName: "Business Plan",
-		venue: " Venue Yet to be decided",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "/assets/businessplan.gif",
@@ -178,7 +178,7 @@ export const data = [
 	},
 	{
 		eventName: "Movie Making",
-		venue: " Venue Yet to be decided",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "/assets/movie.gif",
@@ -209,7 +209,7 @@ export const data = [
 	},
 	{
 		eventName: "Excel Workshop",
-		venue: " Venue Yet to be decided",
+		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "/assets/excel.gif",

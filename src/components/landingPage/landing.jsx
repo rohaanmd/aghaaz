@@ -12,7 +12,7 @@ export default function LandingPage() {
 				<br />
 				<h2 className="page-sub-title">2022</h2>
 				<br />
-				<div className="position-relative d-flex justify-center">
+				<div className="position-relative d-flex justify-center sub-header">
 					<h2 className="page-title">A Management Fest</h2>
 					<div className="span-title"> By Department of MBA</div>
 				</div>
