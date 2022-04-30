@@ -11,7 +11,7 @@ const [Data, setData] = useState({})
 
 useEffect(() => {
     var temp = data.find(x => JSON.stringify(x.eventId) === infoName);
-
+console.log(temp);
     setData({...temp})
 }, [])
 
@@ -26,9 +26,21 @@ return (
       Know More
     </div>
 
-<div className="_information_eventName">
+
+<br />
+
+<h1 className=" _information_eventName" data-title={Data.eventName}>
 {Data.eventName}
+				</h1>
 </div>
+<div className="_information_body">
+<h2 className="_information_body_subHeading">
+Date and time</h2>
+
+<p>
+  {Data.date} <sup>{Data.superr}</sup> 2022  @ {Data.time}
+</p>
+
 </div>
 
 <div className="_information_body">

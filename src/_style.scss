@@ -2,7 +2,12 @@
 // virtual box
 // ie8 compat
 // no flexbox
-
+@function vw($px-vw, $base-vw: 1920px) {
+	@return ($px-vw * 100vw) / $base-vw;
+}
+@function vv($px-vw, $base-vw: 676px) {
+	@return ($px-vw * 100vw) / $base-vw;
+}
 a,
 a:hover,
 a:focus {

@@ -39,7 +39,7 @@ export default function CardCustom({ d }) {
 							rel="noreferrer"
 							to={`info/${d.eventId}`}
 						>
-							Info
+							Know More
 						</Link>
 					</li>
 					<Popup

@@ -2,7 +2,7 @@
 
 ._information{
     position: relative;
-    font-size: 10px;
+    font-size: vv(3.5px);
     .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -15,7 +15,7 @@
   }
   
   .information { grid-area: information;
-    padding: 3rem 3rem 3rem 5rem;
+    padding: 3em 3em 3em 5em;
 }
   
   .poster { grid-area: poster;
@@ -31,28 +31,67 @@ img{
 
 }
   
+ol{
+    margin: 0;
+    padding: 0 0 0 1em;
+    li a{
+        text-decoration: none;
+        color: $base-font-color ;
+    }
+}
 
 &_title{
     color: $color-brand-secondary;
-    font-size: 14px;
+    font-size: 2em;
     font-weight: bold;
     letter-spacing: 2px;
     display: inline-block;
     text-transform: uppercase;
     font-family: sans-serif;
-    margin-bottom: 4rem;
+    margin-bottom: 1em;
 }
 
 &_eventName{
-    font-size: 8em;
+    
 	margin-bottom: 3rem;
+    position: relative;
+	display: block;
+	margin-bottom: 0;
+	font-size: 15vw;
+	letter-spacing: -2px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px #fff;
+	//   mix-blend-mode: overlay;
+	z-index: 1;
+
+	@include min-width(33em) {
+		font-size: 9em;
+	}
+
+	&::before,
+	&::after {
+		position: absolute;
+		content: attr(data-title);
+		text-shadow: none;
+		z-index: -1;
+	}
+
+	&::before {
+		margin-left: .6rem;
+		color: $color-brand-secondary;
+	}
+
+	&::after {
+	display: none;
+	}
 }
 &_body{
 
     &_subHeading{
         color: $color-brand-secondary;
-        font-size: 1.6em;
-        margin-bottom: 4em;
+        font-size: 2em;
+        margin-bottom: 1em;
     }
 
     ol li,p{
