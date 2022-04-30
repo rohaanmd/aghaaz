@@ -151,8 +151,7 @@ export const data = [
 		date: "May 13",
 		superr: "th",
 		img: "/assets/businessplan.gif",
-		description:
-			"Each team should comprise a maximum of three students. A member can be part of only one team. No change in the team structure is permitted after the team has registered, The event is open for students of MBA, PGDM, B.Tech , BBA, BCA, Participants must adhere to the timelines. Incomplete entries or entries that do not comply with the above specifications will be automatically disqualified.Teams would cover Aaghaaz 2022 in their videos, edit and present the videos in form of movie. The short film can include text, images, photos, videos or any combination of these elements on Aaghaaz. The Video duration must be a minimum of 5 min and a maximum of 10 min. The decision of the organizers of the event and the panel of judges will be final and will be binding on all the participants. The video must not contain any nudity , otherwise offensive or inappropriate content.",
+		description:"Each team should comprise a maximum of 4 participants. A member can be part of only one team. No change in the team structure is permitted after the team has registered. The event is open for students of MBA, PGDM, B.Tech, BBA, BCA Participants must adhere to the timelines. Incomplete entries or entries that do not comply with the above specifications will be automatically disqualified.",
 		rLink: "https://forms.gle/U7QmwmrWFcxSTP1w8",
 		contact: {
 			s_coord: [
@@ -164,14 +163,14 @@ export const data = [
 					name: "Muskan Goel",
 					number: 9935160857,
 				},
-				{
-					name: "Mohd. Kumail",
-					number: 9719493126,
-				},
-				{
-					name: "Rajat Tyagi",
-					number: 9999612528,
-				},
+				// {
+				// 	name: "Mohd. Kumail",
+				// 	number: 9719493126,
+				// },
+				// {
+				// 	name: "Rajat Tyagi",
+				// 	number: 9999612528,
+				// },
 			],
 			t_coord: ["Dr. Shashi Gupta"],
 		},
