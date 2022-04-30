@@ -328,12 +328,12 @@ body {
 	}
 
 	&::before {
-		margin-left: 1rem;
+		margin-left: .6rem;
 		color: $color-brand-secondary;
 	}
 
 	&::after {
-		margin-left: calc(-100% - 1rem);
+		margin-left: calc(-100% - .6rem);
 		color: lightslategray;
 		mix-blend-mode: multiply;
 	}

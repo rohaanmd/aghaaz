@@ -1,6 +1,7 @@
 export const data = [
 	{
 		eventName: "ANVESHAN- The Corporate Quiz",
+		eventId:1,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
@@ -28,6 +29,7 @@ export const data = [
 	},
 	{
 		eventName: "100 Ka Dam",
+		eventId:2,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
@@ -51,6 +53,7 @@ export const data = [
 	},
 	{
 		eventName: "Corporate Walk",
+		eventId:3,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
@@ -74,6 +77,7 @@ export const data = [
 	},
 	{
 		eventName: "Ad Zap-  The Ad Mad Show",
+		eventId:4,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
@@ -101,6 +105,7 @@ export const data = [
 	},
 	{
 		eventName: "Jugaad Management",
+		eventId:5,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
@@ -124,6 +129,7 @@ export const data = [
 	},
 	{
 		eventName: "Turn Coat - The Business Debate",
+		eventId:6,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
@@ -147,6 +153,7 @@ export const data = [
 	},
 	{
 		eventName: "Business Plan",
+		eventId:7,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
@@ -174,10 +181,26 @@ export const data = [
 				},
 			],
 			t_coord: ["Dr. Shashi Gupta"],
+			
+			
 		},
+		poster:"/assets/event/7.jpg",
+			rules:[
+
+				"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material.",
+				"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material.",
+				"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material.",
+				"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material.",
+				"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material.",
+				"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material.",
+				"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material.",
+				"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material.",
+			
+			]
 	},
 	{
 		eventName: "Movie Making",
+		eventId:8,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
@@ -209,6 +232,7 @@ export const data = [
 	},
 	{
 		eventName: "Excel Workshop",
+		eventId:9,
 		venue: " Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
