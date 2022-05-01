@@ -210,8 +210,10 @@ export const data = [
 		date: "May 13",
 		superr: "th",
 		img: "/assets/businessplan.gif",
+
 		description:
 			"Each team should comprise a maximum of 4 participants. A member can be part of only one team. No change in the team structure is permitted after the team has registered. The event is open for students of MBA, PGDM, B.Tech, BBA, BCA Participants must adhere to the timelines. Incomplete entries or entries that do not comply with the above specifications will be automatically disqualified.",
+
 		rLink: "https://forms.gle/U7QmwmrWFcxSTP1w8",
 		contact: {
 			s_coord: [
