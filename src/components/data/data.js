@@ -6,8 +6,7 @@ export const data = [
 		date: "May 13",
 		superr: "th",
 		img: "/assets/quiz.jpg",
-		description:
-			"One team will comprise of not more than two participants, Per college, not more than 3 teams will be allowed, First round to be a screening round (written), Out of the screening round, top 6 teams quality to play two league rounds A and B, From each league round A and B, top two teams to quality for semi final, Form the semi final, team with the lowest score will be eliminated, Three teams play final, Winners are declared as 1st and 2nd, In case of tie, a tie breaker question will be asked.",
+		description:"One team will comprise not more than two participants. Per college, not more than 3 teams will be allowed. The first round will be a screening round (written). In the screening round, the top 6 teams will qualify to play two league rounds A and B. From each league round, the top two teams will qualify for the semi-finals. In the semi-finals, the team with the lowest score will be eliminated. Three teams play will play for the finals. Winners will be declared as 1st and 2nd. In case of a tie, a tie-breaker question will be asked.",
 		rLink: "https://forms.gle/KRnyBQEHg8RuxjWy5",
 		contact: {
 			s_coord: [
