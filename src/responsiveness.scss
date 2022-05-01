@@ -1,9 +1,52 @@
 /* Smartphones (portrait and landscape) ----------- */
+@import "./style.scss"; 
 @media only screen
 
 and (max-width : 748px) {
 /* Styles */
 
+
+._information{
+    font-size: vv(11px) !important;
+
+    &_footer{
+        margin: vv(70px) 0 vv(50px) auto;
+        display: flex;
+        justify-content: center;
+    }
+    &_eventName{
+        font-size: 11vw !important;
+    }
+
+    ._information_body ol li, ._information_body p {
+        font-size: 2em;
+        margin-bottom: 1em;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .fill {
+    font-size: 2em !important;
+    margin: 0 !important;
+    }
+    .container{
+display: flex !important;
+flex-direction: column;
+    .poster { 
+        display: flex;
+        justify-content: center;
+        padding: vv(10px);
+    img{
+        // width: 100%;
+        
+        position: static;
+        height: 100vw;
+    
+    }
+    
+    
+    }
+
+}
+}
 ._header {
     flex-direction: column;
     max-height: fit-content;

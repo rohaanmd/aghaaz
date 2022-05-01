@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Popup from "reactjs-popup";
+
 export default function CardCustom({ d }) {
 	const { s_coord, t_coord } = d.contact;
 	console.log(s_coord);
@@ -29,6 +31,16 @@ export default function CardCustom({ d }) {
 						>
 							Regester now
 						</a>
+					</li>
+					<li>
+						<Link
+							className="text-s link-default event-card__link"
+							target="_blank"
+							rel="noreferrer"
+							to={`info/${d.eventId}`}
+						>
+							Know More
+						</Link>
 					</li>
 					<Popup
 						className="_contact"

@@ -2,7 +2,12 @@
 // virtual box
 // ie8 compat
 // no flexbox
-
+@function vw($px-vw, $base-vw: 1920px) {
+	@return ($px-vw * 100vw) / $base-vw;
+}
+@function vv($px-vw, $base-vw: 676px) {
+	@return ($px-vw * 100vw) / $base-vw;
+}
 a,
 a:hover,
 a:focus {
@@ -328,12 +333,12 @@ body {
 	}
 
 	&::before {
-		margin-left: 1rem;
+		margin-left: .6rem;
 		color: $color-brand-secondary;
 	}
 
 	&::after {
-		margin-left: calc(-100% - 1rem);
+		margin-left: calc(-100% - .6rem);
 		color: lightslategray;
 		mix-blend-mode: multiply;
 	}
@@ -451,4 +456,9 @@ body {
 	font-weight: 700;
 	top: 32%;
 	white-space: nowrap;
+}
+
+
+footer._information .fill{
+	font-size: 1.2vw;
 }

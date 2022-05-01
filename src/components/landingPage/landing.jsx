@@ -25,6 +25,10 @@ export default function LandingPage() {
 					})}
 				</section>
 			</main>
+<footer className="_information d-flex justify-center">
+<a className='fill' href="/assets/event/aaghaaz.pdf" target={'_blank'} download={true} >Download brochure</a>
+</footer>
+
 		</>
 	);
 }

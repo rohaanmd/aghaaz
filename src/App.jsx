@@ -1,16 +1,17 @@
-import Footer from "./components/footer/footer";
-import Headers from "./components/header/header";
 import "./_style.scss";
 import "./responsiveness.scss";
-import LandingPage from "./components/landingPage/landing";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/home/home";
+import Information from "./components/information/information";
+
 
 function App() {
 	return (
-		<div classname="App">
-			<Headers />
-			<LandingPage />
-			<Footer />
-		</div>
+		<Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/info/:infoName" element={<Information/>} />
+      </Routes>
+		
 	);
 }
 
