@@ -92,12 +92,17 @@ ol{
         color: $color-brand-secondary;
         font-size: 2em;
         margin-bottom: 1em;
+
+        
     }
 
     ol li,p{
         font-size: 1.6em;
         margin-bottom: 2em;
         color: $color-text-default;
+        a{
+            color: $color-brand;
+        }
     }
 }
 
