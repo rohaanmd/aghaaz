@@ -1,5 +1,6 @@
+
 import "./_style.scss";
-import "./responsiveness.scss";
+
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/home/home";
 import Information from "./components/information/information";
