@@ -109,8 +109,9 @@ export const data = [
 		superr: "th",
 		img: "assets/ad.jpg",
 		description:
-			"Participants will have to register as a team (Min 3 Max 4), Product will be provided on the spot for Ad making.   In the 1st round, the teams would make ad jingles and tag lines. (time limit -5 min). Based on the decision of jury, teams will qualify for the second round. In the second round the teams will make print ad. (time limit -20 min).   Based on the decision of jury, teams will qualify for the final round (time limit -5 min). In the third round the teams will make visual advertisements (acting on stage)- time limit 2 min. Ad should not be copied from television. Avoid controversial content.",
-		rLink: "https://forms.gle/QmWAHnsTfDvHwqD56",
+			"Participants will have to register as a team (Min 3 Max 4), Product will be provided on the spot for Ad making.   In the 1st round, the teams would make ad jingles and tag lines. (time limit -5 min). Based on the decision of jury, teams will qualify for the second round. In the second round the teams will make print ad. (time limit -20 min).   Based on the decision of jury, teams will qualify for the final round (time limit -5 min). In the third round the teams will make visual advertisements (acting on stage)- time limit 2 min. Ad should not be copied from television. Avoid controversial content. Bring out the creativity inside you and make an outstanding advertisement of your own. Be it hilarious or sensitive, be it just your creativity and ad sense. Ad -Mad show is an advertisement making competition for students to provide platform where they can showcase their creativity and talent for marketing any product or service. It comprise of creative and humorous ad presentation through acting, jingle/tagline, brand name etc. for the selected product or service.",
+			
+			rLink: "https://forms.gle/QmWAHnsTfDvHwqD56",
 		contact: {
 			s_coord: [
 				{
@@ -130,7 +131,20 @@ export const data = [
 		},
 		time: "9:30 AM",
 		poster: "/assets/event/cwlk.png",
-		rules: [],
+		rules: [
+			"It is a team event so students are required to participate in teams. Minimum 3 and maximum 5 members are allowed to participate.",
+			"The presentation should contain brand name, brand logo, jingle/tagline for the selected product or service. Topics would be provided on the spot.",
+			"Product or services to be advertised will be selected by the team’s representatives by picking chits containing the product name.",
+			"15 minutes preparation time for each team.",
+			"Time limit for performing the advertisement is 5 minutes.",
+			"No cell phones & electronic gadgets will be permitted to use.",
+			"No props will be given to participants; participants themselves have to manage additional or extra props.",
+			"Participants shall be judged on the basis of spontaneity, content, adherence to the topic, on-stage presentation, coordination and overall appeal of the advertisement.",
+			"The caution should be taken to refrain from displaying obscenity, violence, prejudice, defamation etc. in Advertisement.",
+			"Decision of the judges will be final and binding.",
+
+
+		],
 	},
 	{
 		eventName: "Jugaad Management",
