@@ -25,7 +25,7 @@ export const data = [
 			],
 			t_coord: ["Ms. Punjika Rathi"],
 		},
-		time: "9:30 AM",
+		time: "12:30 PM",
 		poster: "/assets/event/anveshan.png",
 		rules: [],
 	},
@@ -52,7 +52,7 @@ export const data = [
 			],
 			t_coord: ["Ms. Punjika Rathi"],
 		},
-		time: "9:30 AM",
+		time: "10:30 AM",
 		poster: "/assets/event/dam.png",
 		rules: [
 			"Students are required to participate in teams, minimum 3 and maximum 4 members are allowed to participate.",
@@ -90,7 +90,7 @@ export const data = [
 			],
 			t_coord: ["Ms. Punjika Rathi"],
 		},
-		time: "9:30 AM",
+		time: "3:30 PM",
 		poster: "/assets/event/cwlk.png",
 		rules: [
 			"It is compulsory that all participants must possess valid ID card and to be present on time.",
@@ -104,7 +104,7 @@ export const data = [
 	{
 		eventName: "Ad Zap - The Ad Mad Show",
 		eventId: 4,
-		venue: " Block C, IMSEC",
+		venue: "Block C, IMSEC",
 		date: "May 13",
 		superr: "th",
 		img: "assets/ad.jpg",
@@ -129,7 +129,7 @@ export const data = [
 			],
 			t_coord: ["Dr. Abhijit Das"],
 		},
-		time: "9:30 AM",
+		time: "10:30 AM",
 		poster: "/assets/event/cwlk.png",
 		rules: [
 			"It is a team event so students are required to participate in teams. Minimum 3 and maximum 5 members are allowed to participate.",
@@ -169,7 +169,7 @@ export const data = [
 			],
 			t_coord: ["Ms. Punjika Rathi"],
 		},
-		time: "9:30 AM",
+		time: "10:30 AM",
 		poster: "/assets/event/jugaad.png",
 		rules: [
 			"Maximum 2-4 members in each team.",
@@ -205,7 +205,7 @@ export const data = [
 			],
 			t_coord: ["Dr. Abhijit Das"],
 		},
-		time: "9:30 AM",
+		time: "12:30 PM",
 		poster: "/assets/event/coat.png",
 		rules: [
 			"The maximum no. of participants  will be two.",
@@ -250,7 +250,7 @@ export const data = [
 
 			t_coord: ["Dr. Shashi Gupta"],
 		},
-		time: "9:30 AM",
+		time: "10:30 AM",
 		poster: "/assets/event/bp.png",
 		rules: [
 			"Any number of business plans from an institution may be allowed, provided that teams have no common members.",
@@ -292,7 +292,7 @@ export const data = [
 			],
 			t_coord: ["Dr. Shashi Gupta"],
 		},
-		time: "9:30 AM",
+		time: "10:30 AM",
 		poster: "/assets/event/movie.png",
 		rules: [
 			"Every team should comprises of 2-3 members each.",
@@ -335,7 +335,7 @@ export const data = [
 			],
 			t_coord: ["Dr. Abhijit Das"],
 		},
-		time: "9:30 AM",
+		time: "2:30 PM",
 		poster: "/assets/event/movie.png",
 		rules: ["Participant should Bring a laptop.",
 	"All the participants should reach the venue on time.",
