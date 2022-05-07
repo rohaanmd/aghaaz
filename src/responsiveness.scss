@@ -15,6 +15,9 @@ and (max-width : 748px) {
     }
     &_eventName{
         font-size: 11vw !important;
+    &::before{
+        display: none;
+    }
     }
 
     ._information_body ol li, ._information_body p {
