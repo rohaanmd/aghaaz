@@ -208,7 +208,7 @@ export const data = [
 		time: "12:30 PM",
 		poster: "/assets/event/coat.png",
 		rules: [
-			"The maximum no. of participants  will be two.",
+			"The maximum no. of participants  will be one.",
 			"The time duration is 7 minutes. (3 minutes to think and 4 minutes to express).",
 			"The judgment will be done based on : Rationality of views ,Intonation of voice during the debate, Fluency, Views expressed favor/ against the topic, His / Her oratorical skills, Ability to answer the queries, Face to face argument",
 			"The topic will be provided on the spot.",
