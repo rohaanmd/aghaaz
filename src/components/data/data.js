@@ -87,6 +87,10 @@ export const data = [
 					name: "Pallavi Malhotra",
 					number: 8527692404,
 				},
+				{
+					name: "Ayushi Singh",
+					number: 7355546844,
+				},
 			],
 			t_coord: ["Ms. Punjika Rathi"],
 		},
