@@ -71,11 +71,11 @@ export default function Information() {
 						</ol>
 					</div>
 
-					<div className="_information_footer">
+					{/* <div className="_information_footer">
 						<a className="fill" href={Data.rLink}>
 							Register Now !!
 						</a>
-					</div>
+					</div> */}
 				</div>
 				<div class="poster">
 					<img src={Data.poster} alt="" />

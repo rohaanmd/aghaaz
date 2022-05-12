@@ -23,14 +23,14 @@ export default function CardCustom({ d }) {
 			<footer className="event-card__footer">
 				<ul className="event-card__links">
 					<li>
-						<a
+						<Link
 							className="text-s link-default event-card__link"
-							target="_blank"
+							
 							rel="noreferrer"
-							href={d.rLink}
+							to={'/register'}
 						>
 							Regester now
-						</a>
+						</Link>
 					</li>
 					<li>
 						<Link
