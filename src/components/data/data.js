@@ -158,7 +158,7 @@ export const data = [
 		superr: "th",
 		img: "/assets/garbage-recycle.svg",
 		description:
-			"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material. 30 minutes would be provided to complete the activity. A team of 3-4 students are invited to participate.Teams need to bring their own Waste Material / products (min 3 max 10). Winner will be awarded on the basis of the judgment criteria. In case of any dispute, jury members will be authorized to take the final decision. Stationary will be provided to every team.",
+			"It’s a team activity. Participants are supposed to transform their waste products into some useful product with the existing material. 1hour and 30 minutes would be provided to complete the activity. A team of 3-4 students are invited to participate.Teams need to bring their own Waste Material / products (min 3 max 10). Winner will be awarded on the basis of the judgment criteria. In case of any dispute, jury members will be authorized to take the final decision. Stationary will be provided to every team.",
 		rLink: "https://forms.gle/BjaeSaXLyHsFw9ms7",
 		contact: {
 			s_coord: [
