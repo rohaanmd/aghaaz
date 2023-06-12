@@ -4,7 +4,7 @@ import Popup from "reactjs-popup";
 
 export default function CardCustom({ d }) {
 	const { s_coord, t_coord } = d.contact;
-	console.log(s_coord);
+	// console.log(s_coord);
 
 	return (
 		<article className="flex-grid-item event-card">

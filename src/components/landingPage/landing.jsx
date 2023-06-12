@@ -20,7 +20,7 @@ export default function LandingPage() {
 			<main>
 				<section className="flex-grid event-listing">
 					{data.map((d, key) => {
-						console.log(d);
+						// console.log(d);
 						return <CardCustom d={d} key={key} />;
 					})}
 				</section>
